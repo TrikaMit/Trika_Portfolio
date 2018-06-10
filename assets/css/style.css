@@ -1,69 +1,114 @@
-body{
+body {
     padding: 0px 20px 0px 30px;
     font-family: 'Montserrat', sans-serif;
     font-family: 'Roboto', sans-serif;
     background: rgba(204, 221, 242, 0.3);
     color: slategrey;
 }
-a, a:hover{
+
+a,
+a:hover {
     color: black;
 }
-h1{
+
+h1 {
     font-family: 'Montserrat', sans-serif;
     padding-top: 40px;
     padding-bottom: 40px;
 }
-.display-6{
+
+.display-6 {
     font-family: 'Montserrat', sans-serif;
 }
-.display-6:hover{
+
+.display-6:hover {
     letter-spacing: 10px;
 }
-#nav{
-    padding-bottom:100px;
+
+#nav {
+    padding-bottom: 100px;
 }
 
-.headerTitle{
-    width:100%;
+.headerTitle {
+    width: 100%;
     text-align: right;
     font-family: 'Montserrat', sans-serif;
     border-bottom: 2px #B2C8E6 solid;
-    margin-bottom:20px;
+    margin-bottom: 20px;
 }
-#aboutMe{
-    text-align:right;
+
+#aboutMe {
+    text-align: right;
 }
-#mePic{
-    max-height:400px;
-    padding-bottom:10px;
+
+#mePic {
+    max-height: 400px;
+    padding-bottom: 10px;
 }
-.carouselImage{
-    max-height:500px;
-    text-align:center;
+
+.carouselImage {
+    max-height: 500px;
+    text-align: center;
 }
+
 .carousel-inner img {
     margin: auto;
-  }
-.carousel-caption{
-    color:black;
 }
-.material-icons{
+
+.carousel-caption {
+    color: black;
+}
+
+.material-icons {
     line-height: 0.5;
     font-size: 40px !important;
 }
-.material-icons:hover{
+
+.material-icons:hover {
     font-weight: bolder;
-
 }
+
 .carousel-indicators .active {
-    background: slategrey!important;
+    background: slategrey !important;
 }
-.carousel-item active{
-    position:relative;
+
+.carousel-item active {
+    position: relative;
 }
-.carousel-caption{
-    position:absolute;
-    bottom:-20px;
+
+.carousel-caption {
+    position: absolute;
+    bottom: -20px;
+}
+
+/* Smartphones (portrait and landscape) ----------- */
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+    body{
+    margin-left: 10px;
+    margin-right:10px;
+    }
+    .display-4{
+        font-size: 2rem;
+    }
 }
 
 
+/* iPads (portrait and landscape) ----------- */
+
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+    body{
+    margin-left: 20px;
+    margin-right:20px;
+    }
+}
+
+/* Desktops and laptops ----------- */
+
+@media only screen and (min-width: 1224px) {
+    body{
+    margin-top: 80px;
+    margin-left: 120px;
+    margin-right:120px;
+    }
+}
