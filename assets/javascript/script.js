@@ -15,11 +15,10 @@ $(document).ready(function(){
             scrollTop: $('#contactTitle').offset().top
           }, 1000)
     });
-    $('.upKey').click(function() {
+    $('.upKey').on('click', function() {
         $('html, body').animate({
             scrollTop: $('.display-1').offset().top
-          }, 1000)
-          
+          }, 1000)       
     });
     
 

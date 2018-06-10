@@ -2,7 +2,7 @@ body{
     padding: 0px 20px 0px 30px;
     font-family: 'Montserrat', sans-serif;
     font-family: 'Roboto', sans-serif;
-    background: #D8E4F3;
+    background: rgba(204, 221, 242, 0.3);
     color: slategrey;
 }
 h1{
@@ -14,7 +14,7 @@ h1{
     font-family: 'Montserrat', sans-serif;
 }
 .display-6:hover{
-    letter-spacing: 6px;
+    letter-spacing: 10px;
 }
 #nav{
     padding-bottom:100px;
@@ -33,6 +33,27 @@ h1{
 #mePic{
     max-height:400px;
     padding-bottom:10px;
+}
+.carouselImage{
+    max-height:500px;
+    text-align:center;
+}
+.carousel-inner img {
+    margin: auto;
+  }
+.carousel-caption{
+    color:black;
+}
+.material-icons{
+    line-height: 0.5;
+    font-size: 40px !important;
+}
+.material-icons:hover{
+    font-weight: bolder;
+
+}
+.carousel-indicators .active {
+    background: slategrey!important;
 }
 
 
