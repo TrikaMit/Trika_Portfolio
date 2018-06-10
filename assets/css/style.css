@@ -5,6 +5,9 @@ body{
     background: rgba(204, 221, 242, 0.3);
     color: slategrey;
 }
+a, a:hover{
+    color: black;
+}
 h1{
     font-family: 'Montserrat', sans-serif;
     padding-top: 40px;
@@ -55,6 +58,12 @@ h1{
 .carousel-indicators .active {
     background: slategrey!important;
 }
-
+.carousel-item active{
+    position:relative;
+}
+.carousel-caption{
+    position:absolute;
+    bottom:-20px;
+}
 
 

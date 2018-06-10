@@ -21,6 +21,12 @@ $(document).ready(function(){
           }, 1000)       
     });
     
+    $('.carousel-item').hover(function(){
+        $('.card-body').show();
+    }, function(){
+        $('.card-body').hide();
+    })
+    
 
 
      
