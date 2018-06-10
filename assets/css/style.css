@@ -1,0 +1,39 @@
+body{
+    padding: 0px 20px 0px 30px;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    background: #D8E4F3;
+    color: slategrey;
+}
+h1{
+    font-family: 'Montserrat', sans-serif;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+.display-6{
+    font-family: 'Montserrat', sans-serif;
+}
+.display-6:hover{
+    letter-spacing: 6px;
+}
+#nav{
+    padding-bottom:100px;
+}
+
+.headerTitle{
+    width:100%;
+    text-align: right;
+    font-family: 'Montserrat', sans-serif;
+    border-bottom: 2px #B2C8E6 solid;
+    margin-bottom:20px;
+}
+#aboutMe{
+    text-align:right;
+}
+#mePic{
+    max-height:400px;
+    padding-bottom:10px;
+}
+
+
+
