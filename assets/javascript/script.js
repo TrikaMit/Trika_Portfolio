@@ -26,6 +26,10 @@ $(document).ready(function(){
     }, function(){
         $('.card-body').hide();
     })
+
+    $('.btn').on('click', function(){
+        $('.form-control').val('');
+    })
     
 
 
