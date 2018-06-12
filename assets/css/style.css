@@ -38,7 +38,7 @@ h1 {
 }
 
 #aboutMe {
-    text-align: right;
+    text-align: center;
 }
 
 #mePic {
@@ -80,9 +80,12 @@ h1 {
     position: absolute;
     bottom: -20px;
 }
+.icon{
+    height: 100px;
+}
 
 /* Smartphones (portrait and landscape) ----------- */
-@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+@media only screen and (min-device-width: 320px) and (max-device-width: 576px) {
     body{
     margin-left: 10px;
     margin-right:10px;
@@ -97,7 +100,6 @@ h1 {
         text-align: center;
     }
 }
-
 
 /* iPads (portrait and landscape) ----------- */
 
