@@ -83,6 +83,9 @@ h1 {
 .icon{
     height: 100px;
 }
+.card-body{
+    border: 1px slategray solid;
+}
 
 /* Smartphones (portrait and landscape) ----------- */
 @media only screen and (min-device-width: 320px) and (max-device-width: 576px) {
